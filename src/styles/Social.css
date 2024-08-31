@@ -1,0 +1,23 @@
+.nav-social {
+    
+    display: flex;
+    justify-content: center;
+    
+    gap: 1rem;
+}
+
+.nav-social a {
+    width: 3rem;
+    height: 3rem;
+    font-size: .6rem;
+    border: .1rem solid #f3eded;
+    padding: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transsform .3s ease;
+}
+.nav-social a:hover {
+    background-color: var(--Pale-Blue);
+}
